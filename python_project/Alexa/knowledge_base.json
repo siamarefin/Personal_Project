@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "question": "hi",
+      "answer": "hallo"
+    },
+    {
+      "question": "how are you ",
+      "answer": "i am fine "
+    },
+    {
+      "question": "your age ? ",
+      "answer": "i was born on 2023"
+    },
+    {
+      "question": "what is gender ?",
+      "answer": "Gender refers to the characteristics of women, men, girls and boys that are socially constructed."
+    },
+    {
+      "question": "siam arefin ",
+      "answer": " siam arefin is a cute software engineer . i like him ."
+    },
+    {
+      "question": "who are you",
+      "answer": "i am alexa . your personal assistant "
+    },
+    {
+      "question": "software engineer",
+      "answer": "software engineer is the high level engineer "
+    },
+    {
+      "question": "Good morning, how are you?",
+      "answer": " I am doing well, how about you?"
+    },
+    {
+      "question": "Alexa ",
+      "answer": "yes boss"
+    },
+    {
+      "question": "Albert einstein search on wikipedia",
+      "answer": "Albert Einstein ( EYEN-styne; German: [\u02c8alb\u025b\u0281t \u02c8\u0294a\u026an\u0283ta\u026an] (listen); 14 March 1879 \u2013 18 April 1955) was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature that modern physics accomplished in the first decades of the twentieth century. His mass\u2013energy equivalence formula E = mc2, which arises from relativity theory, has been called \"the world's most famous equation\"."
+    },
+
+    {
+      "question": "isaac newton search on wikipedia",
+      "answer": "Sir Isaac Newton  (25 December 1642 \u2013 20 March 1726/27) was an English mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His pioneering book Philosophi\u00e6 Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, consolidated many previous results and established classical mechanics."
+    }
+  ]
+}
