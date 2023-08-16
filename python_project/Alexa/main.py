@@ -36,19 +36,24 @@ def chat():
 
         best_match:str | None = find_best_match(user_input,[q["question"]for q in knowledge_base["questions"]])
 
-        if best_match:
-            answer: str = get_answer_for_question(best_match,knowledge_base)
-            print(f'Bot:{answer}')
 
 
-        elif 'search on wikipedia' in user_input:
+
+        if 'search on wikipedia' in user_input:
             name= user_input.replace('search on wikipedia','')
             new_answer = wikipedia.summary(name, sentences=3)
             print(new_answer)
             if new_answer.lower() != 'sp':
-                knowledge_base["questions"].append({"question":user_input,"answer" : new_answer})
-                save_knowledge_base('knowledge_base.json',knowledge_base)
-                print('Bot : Thank You ! I learned a new response!')
+                best_match: str | None = find_best_match(name,
+                                                         [q["question"] for q in knowledge_base["questions"]])
+                if best_match:
+                    print("")
+                else:
+                    knowledge_base["questions"].append({"question":name,"answer" : new_answer})
+                    save_knowledge_base('knowledge_base.json',knowledge_base)
+        elif best_match:
+            answer: str = get_answer_for_question(best_match,knowledge_base)
+            print(f'Bot:{answer}')
 
 
         else:
