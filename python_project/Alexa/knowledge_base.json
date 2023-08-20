@@ -18,11 +18,11 @@
     },
     {
       "question": "siamarefin",
-      "answer": " siam arefin is a cute software engineer . i like him .he is my boss"
+      "answer": " cm arefin is a  software engineer . he is my boss"
     },
     {
       "question": "whoareyou",
-      "answer": "i am alexa . your personal assistant "
+      "answer": "i am jarvis . your personal assistant "
     },
     {
       "question": "softwareengineer",
@@ -127,6 +127,34 @@
     {
       "question": "deeplearning",
       "answer": "Deep learning is part of a broader family of machine learning methods, which is based on artificial neural networks with representation learning. The adjective \"deep\" in deep learning refers to the use of multiple layers in the network. Methods used can be either supervised, semi-supervised or unsupervised.Deep-learning architectures such as deep neural networks, deep belief networks, deep reinforcement learning, recurrent neural networks, convolutional neural networks and transformers have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, climate science, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.Artificial neural networks (ANNs) were inspired by information processing and distributed communication nodes in biological systems."
+    },
+    {
+      "question": "neuralnetwork",
+      "answer": "A neural network can refer to either a neural circuit of biological neurons (sometimes also called a biological neural network), or a network of artificial neurons or nodes in the case of an artificial neural network. Artificial neural networks are used for solving artificial intelligence (AI) problems; they model connections of biological neurons as weights between nodes. A positive weight reflects an excitatory connection, while negative values mean inhibitory connections."
+    },
+    {
+      "question": "numericalanalysis",
+      "answer": "Numerical analysis is the study of algorithms that use numerical approximation (as opposed to symbolic manipulations) for the problems of mathematical analysis (as distinguished from discrete mathematics). It is the study of numerical methods that attempt at finding approximate solutions of problems rather than the exact ones. Numerical analysis finds application in all fields of engineering and the physical sciences, and in the 21st century also the life and social sciences, medicine, business and even the arts."
+    },
+    {
+      "question": "talk",
+      "answer": "hi"
+    },
+    {
+      "question": "",
+      "answer": "hi"
+    },
+    {
+      "question": "whomebyyoumade?",
+      "answer": "i am created by siam arefin "
+    },
+    {
+      "question": "cmarifin",
+      "answer": "cm arefin is a  software engineer . he is my boss"
+    },
+    {
+      "question": "ok",
+      "answer": "welcome"
     }
   ]
 }
