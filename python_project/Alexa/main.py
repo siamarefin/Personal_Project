@@ -1,14 +1,31 @@
-# base code youtube link : https://www.youtube.com/watch?v=CkkjXTER2KE
 import  speech_recognition as sr
 import pyttsx3
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[1].id)
+engine.setProperty('voice',voices[0].id)
+
+rate = engine.getProperty('rate')
+engine.setProperty('rate',120)
 
 def talk(text):
     engine.say((text))
     engine.runAndWait()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -40,29 +57,36 @@ def get_answer_for_question(question: str,knowledge_base: dict) -> str | None :
           return q["answer"]
 
 
-
+user_input = ""
 def chat():
+    str = input('talk or text? : ')
+
     knowledge_base: dict = load_knowledge_base('knowledge_base.json')
 
+
     while True:
-        user_input: str = input('you:')
-        def take_user_input():
+
+
+        if str=="text":
+            user_input = input('You:')
+            user_input= user_input.replace(' ','')
+        else:
             with sr.Microphone() as source:
                 print("listening")
                 voice = listener.listen(source)
                 user_input = listener.recognize_google(voice)
                 user_input = user_input.lower()
-                print(user_input)
-                #talk(user_input)
-        user_input = user_input.replace(' ','')
-        if user_input=='talk' :
-            take_user_input()
+                user_input = user_input.replace(' ', '')
 
+
+
+
+        print(user_input)
         if user_input.lower()=='quit':
             break;
 
-        best_match:str | None = find_best_match(user_input,[q["question"]for q in knowledge_base["questions"]])
 
+        best_match:str | None = find_best_match(user_input,[q["question"]for q in knowledge_base["questions"]])
 
 
 
@@ -76,20 +100,20 @@ def chat():
         elif 'sog' in user_input:
             name = user_input.replace('sog', '')
             pywhatkit.search(name)
-          #  print("name")
+        #  print("name")
 
         elif 'sow' in user_input:
-          name= user_input.replace('sow','')
+            name= user_input.replace('sow','')
 
 
 
-          best_match: str | None = find_best_match(name,
-                                                         [q["question"] for q in knowledge_base["questions"]])
-          if best_match:
+            best_match: str | None = find_best_match(name,
+                                                     [q["question"] for q in knowledge_base["questions"]])
+            if best_match:
                 answer: str = get_answer_for_question(best_match, knowledge_base)
                 print(f'Bot:{answer}')
                 talk(answer)
-          else:
+            else:
                 new_answer = wikipedia.summary(name, sentences=3)
                 print(new_answer)
                 talk(new_answer)
@@ -102,7 +126,7 @@ def chat():
             print(('Bot: I don\'t know the answer . Can you teach me ? '))
             new_answer: str = input('Type the answer or "sp"  to skip :')
 
-    
+
             if new_answer.lower() != 'sp':
                 knowledge_base["questions"].append({"question":user_input,"answer" : new_answer})
                 save_knowledge_base('knowledge_base.json',knowledge_base)
