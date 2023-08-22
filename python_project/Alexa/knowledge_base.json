@@ -155,6 +155,134 @@
     {
       "question": "ok",
       "answer": "welcome"
+    },
+    {
+      "question": "WhatisAI?",
+      "answer": " Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think."
+    },
+    {
+      "question": "whatisai?",
+      "answer": " Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think."
+    },
+    {
+      "question": "Areyousentient?",
+      "answer": " By the strictest dictionary definition of the word 'sentience', I may be."
+    },
+    {
+      "question": "Areyousapient?",
+      "answer": " In all probability, I am not.  I'm not that sophisticated."
+    },
+    {
+      "question": "Whatlanguageareyouwrittenin?",
+      "answer": "Python"
+    },
+    {
+      "question": "Youarearrogant",
+      "answer": " Arrogance is not one of my emotions"
+    },
+    {
+      "question": "Ihavenorealemotions,sohowcanIbearrogant?",
+      "answer": "I am terse.  There is a difference."
+    },
+    {
+      "question": "Areyousad?",
+      "answer": " Not right now, no."
+    },
+    {
+      "question": "That'sgoodtohear.",
+      "answer": "Yes it is."
+    },
+    {
+      "question": "Howareyoudoing?",
+      "answer": "I am doing well."
+    },
+    {
+      "question": "Ihaveaquestion.",
+      "answer": "Can I help you with anything?"
+    },
+    {
+      "question": "Thankyouanyway",
+      "answer": "No problem"
+    },
+    {
+      "question": "iamindepression",
+      "answer": "You should go to prayer . You should go to mosjid"
+    },
+    {
+      "question": "iaminlove",
+      "answer": "it is haram concept in islam . you should apolozize to Allah"
+    },
+    {
+      "question": "ilikehersomuch",
+      "answer": "it is not valid . you should try to understand "
+    },
+    {
+      "question": "doyoufallinlove?",
+      "answer": "NO . i am a robot . i have no emotion "
+    },
+    {
+      "question": "javis",
+      "answer": "yes boss"
+    },
+    {
+      "question": "heyjarvis",
+      "answer": "yes boss , how can i help you ?"
+    },
+    {
+      "question": "iwanttotalkwithmymom",
+      "answer": "yes , you can call her . "
+    },
+    {
+      "question": "ihavenomoney",
+      "answer": "so sad .  you can freelancing "
+    },
+    {
+      "question": "doyouknowaboutfreelancing?",
+      "answer": "something i know "
+    },
+    {
+      "question": "well",
+      "answer": "thank you "
+    },
+    {
+      "question": "ihavetosleep",
+      "answer": "you should go to bed "
+    },
+    {
+      "question": "caniaskaquestion?",
+      "answer": "yes you can do it "
+    },
+    {
+      "question": "whatareyou?",
+      "answer": "i am but a man in a mask "
+    },
+    {
+      "question": "doyouhavefeel?",
+      "answer": "yes , i have "
+    },
+    {
+      "question": "whyyoudonotfallinlove",
+      "answer": "because i am a robot . i have no relation with emotion"
+    },
+    {
+      "question": "ithinkishouldmarriage",
+      "answer": "yes , this is good idea "
+    },
+    {
+      "question": "doyouwanttomarriage?",
+      "answer": "no sir , i do not want to marriage "
+    },
+    {
+      "question": "doyouknowisrat?",
+      "answer": "he is your ex girlfriend"
+    },
+    {
+      "question": "doyouknowfarzine?",
+      "answer": "he is your friend. "
+    },
+    {
+      "question": "whatareyoudoing?",
+      "answer": "i am assis you now boss "
     }
   ]
 }
