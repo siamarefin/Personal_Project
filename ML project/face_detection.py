@@ -3,6 +3,14 @@ import mediapipe as mp
 import time
 
 
+framewidth = 400
+frameheight =  320
+cap = cv2.VideoCapture(0)
+cap.set(3,framewidth)
+cap.set(4,frameheight)
+
+
+
 class FaceDetector():
     def __init__(self, minDetectionCon=0.1):
 
@@ -38,7 +46,7 @@ class FaceDetector():
 
 
 def main():
-    cap = cv2.VideoCapture("C:\\Users\\Siam\\Desktop\\opencv\\vedio1.mp4")
+    # cap = cv2.VideoCapture("C:\\Users\\Siam\\Desktop\\opencv\\vedio1.mp4")
     ptime = 0
     detector = FaceDetector()
     while True:
