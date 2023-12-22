@@ -13,12 +13,17 @@ EDA process from Kaggle :
 7. Dropping the missing or null values.
 8. Detecting Outliers
 9. Plot different features against one another (scatter), against frequency (histogram)
+
+
+************FEATURE ENGINEERING************* 
+Basic : https://www.kaggle.com/learn/feature-engineering 
+
+
 Details EDA : https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python 
 
 Practice project : https://www.kaggle.com/code/spscientist/a-simple-tutorial-on-exploratory-data-analysis
 
-************FEATURE ENGINEERING************* 
-Basic : https://www.kaggle.com/learn/feature-engineering 
+
 
 
 
