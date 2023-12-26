@@ -17,6 +17,12 @@ EDA process from Kaggle :
 
 ************FEATURE ENGINEERING************* 
 Basic : https://www.kaggle.com/learn/feature-engineering 
+1 . KM_clustering 
+2 . feature create / change  
+3 . one hot encoding 
+4 . target encoding 
+5 . detecting outlier 
+
 
 
 Details EDA : https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python 
