@@ -20,12 +20,12 @@ basic_info : https://domino.ai/data-science-dictionary/feature-engineering
 Basic : https://www.kaggle.com/learn/feature-engineering 
 kris_naik: https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN
 
-1 . KM_clustering 
-2 . feature create / change  
-3 . one hot encoding 
-4 . target encoding 
-5 . detecting outlier 
-6. missing value 
+*  feature create / change  
+*  KM_clustering 
+*  one hot encoding 
+*  target encoding 
+*  detecting outlier 
+*  missing value 
 
 
 ****************Feature Selection**************
