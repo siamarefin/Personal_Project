@@ -18,18 +18,26 @@ EDA process from Kaggle :
 ************FEATURE ENGINEERING************* 
 basic_info : https://domino.ai/data-science-dictionary/feature-engineering 
 Basic : https://www.kaggle.com/learn/feature-engineering 
+kris_naik: https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN
 
 1 . KM_clustering 
 2 . feature create / change  
 3 . one hot encoding 
 4 . target encoding 
 5 . detecting outlier 
+6. missing value 
+
+
+****************Feature Selection**************
+basic_kaggle  : https://www.kaggle.com/code/willkoehrsen/introduction-to-feature-selection 
+kris_naik : https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8VyRoqmfNs2CJwhVH 
 
 
 
 Details EDA : https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python 
 
 Practice project : https://www.kaggle.com/code/spscientist/a-simple-tutorial-on-exploratory-data-analysis
+
 
 
 
