@@ -30,8 +30,9 @@ kris_naik: https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PX
 
 
 ****************Feature Selection**************
-basic_kaggle  : https://www.kaggle.com/code/willkoehrsen/introduction-to-feature-selection 
+basic: https://www.youtube.com/watch?v=vZDDmULsCUU 
 kris_naik : https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8VyRoqmfNs2CJwhVH 
+
 
 
 
