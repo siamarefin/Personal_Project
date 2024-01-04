@@ -34,11 +34,18 @@ basic: https://www.youtube.com/watch?v=vZDDmULsCUU
 kris_naik : https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8VyRoqmfNs2CJwhVH 
 
 
+***************Machine Learning******************
+kris : https://www.youtube.com/watch?v=7uwa9aPbBRU&list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ&index=1 
+
+
 
 
 Details EDA : https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python 
 
 Practice project : https://www.kaggle.com/code/spscientist/a-simple-tutorial-on-exploratory-data-analysis
+
+
+
 
 
 
