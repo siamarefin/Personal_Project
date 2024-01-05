@@ -37,6 +37,7 @@ kris_naik : https://www.youtube.com/watch?v=uMlU2JaiOd8&list=PLZoTAELRMXVPgjwJ8V
 ***************Machine Learning******************
 kris : https://www.youtube.com/watch?v=7uwa9aPbBRU&list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ&index=1 
 codebasic: https://www.youtube.com/watch?v=J_LnPL3Qg70&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=1
+git_resource : https://github.com/codebasics/py/tree/master/ML
 
 
 
