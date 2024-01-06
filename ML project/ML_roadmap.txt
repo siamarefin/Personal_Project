@@ -44,7 +44,9 @@ git_resource : https://github.com/codebasics/py/tree/master/ML
 
 Details EDA : https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python 
 
-Practice project : https://www.kaggle.com/code/spscientist/a-simple-tutorial-on-exploratory-data-analysis
+eda Practice project : https://www.kaggle.com/code/spscientist/a-simple-tutorial-on-exploratory-data-analysis
+
+ML_project : https://www.youtube.com/watch?v=fw5rkjq4Tfo&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6&index=3
 
 
 
